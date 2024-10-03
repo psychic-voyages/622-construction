@@ -1,0 +1,86 @@
+
+@font-face {
+  font-family: "SuperDream";
+  src: url("/assets/fonts/super-dream.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SuperDream";
+}
+
+body {
+  background-image: url("/assets/images/miyordie.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2.25em;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#main-container {
+  background-color: rgba(128,128,128, 0.5);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  margin: 2em 0;
+  text-align: center;
+}
+
+#navigation-links {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+#pfp {
+  width: 25%;
+  border: 4px solid black;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color:darkslategray;
+}
+
+a:hover {
+  color: lavender;
+}
+
+a:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.about-body {
+  font-size: 1.75em;
+  padding-top: 1em;
+}
+
+.about-body:nth-child(3) {
+  padding-bottom: 1em;
+}
