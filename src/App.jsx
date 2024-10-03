@@ -1,10 +1,8 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Landing from "./Landing";
 import About from "./About";
-import { useEffect } from "react";
 
 function App() {
-
   return (
     <div id="main-container">
       <Routes>

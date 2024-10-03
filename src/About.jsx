@@ -1,9 +1,9 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function About() {
 
   return (
-    <div id="about-container">
+    <>
       <h2>ABOUT</h2>
       <img id="pfp" src="/assets/images/favicon.png" />
       <p className="about-body">
@@ -23,7 +23,7 @@ function About() {
       <section id="navigation-links">
         <Link to="/">BACK</Link>
       </section>
-    </div>
+    </>
   )
 }
 

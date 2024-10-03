@@ -1,9 +1,9 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Landing() {
 
   return (
-    <div id="landing-container">
+    <>
       <h1>UNDER RE-CONSTRUCTION</h1>
       <h2>v helpful links v</h2>
       <p>suck it link tree!</p>
@@ -14,7 +14,7 @@ function Landing() {
         <Link to="/about">ABOUT</Link>
       </section>
       
-    </div>
+    </>
   )
 }
 
