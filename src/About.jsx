@@ -9,7 +9,7 @@ function About() {
       <p className="about-body">
         I am a programmer.<br/>
         I do 3D Printing and art.<br/>
-        Ask me about my screenprinting business.<br/>
+        Ask me about my new screenprinting business.<br/>
         If you're looking to create, I can more than likely help you.<br />
         And if I don't know how, God knows I'm willing to figure it out.
       </p>
